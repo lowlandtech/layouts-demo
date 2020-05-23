@@ -15,7 +15,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@lowlandtech/admin-layout": ["libs/admin-layout/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
