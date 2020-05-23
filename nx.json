@@ -28,6 +28,9 @@
     },
     "admin-layout": {
       "tags": []
+    },
+    "sidebar": {
+      "tags": []
     }
   }
 }
