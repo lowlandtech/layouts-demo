@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { AdminLayoutModule } from '@lowlandtech/admin-layout';
+import { AdminLayoutModule } from './admin-layout';
 import { AsideModule } from './aside';
-import { FooterModule } from '@lowlandtech/footer';
-import { HeaderModule } from '@lowlandtech/header';
-import { MainModule } from '@lowlandtech/main';
-import { NavModule } from '@lowlandtech/nav';
-import { SiteLayoutModule } from '@lowlandtech/site-layout';
+import { FooterModule } from './footer';
+import { HeaderModule } from './header';
+import { MainModule } from './main';
+import { NavModule } from './nav';
+import { SiteLayoutModule } from './site-layout';
 
 @NgModule({
   imports: [

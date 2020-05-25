@@ -26,34 +26,8 @@
       "tags": [],
       "implicitDependencies": ["demo"]
     },
-    "admin-layout": {
-      "tags": []
-    },
-    "nav": {
-      "tags": []
-    },
-    "header": {
-      "tags": []
-    },
-    "footer": {
-      "tags": []
-    },
-    "main": {
-      "tags": []
-    },
-    "site-layout": {
-      "tags": []
-    },
     "layouts": {
-      "tags": [
-        "admin-layout",
-        "nav",
-        "header",
-        "footer",
-        "aside",
-        "main",
-        "site-layout"
-      ]
+      "tags": []
     }
   }
 }
