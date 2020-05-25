@@ -1,7 +1,7 @@
 module.exports = {
-  name: 'sidebar',
+  name: 'nav',
   preset: '../../jest.config.js',
-  coverageDirectory: '../../coverage/libs/sidebar',
+  coverageDirectory: '../../coverage/libs/nav',
   snapshotSerializers: [
     'jest-preset-angular/build/AngularNoNgAttributesSnapshotSerializer.js',
     'jest-preset-angular/build/AngularSnapshotSerializer.js',

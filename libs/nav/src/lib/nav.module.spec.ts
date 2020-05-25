@@ -1,5 +1,5 @@
 import { async, TestBed } from '@angular/core/testing';
-import { SidebarModule } from './sidebar.module';
+import { SidebarModule } from './nav.module';
 
 describe('SidebarModule', () => {
   beforeEach(async(() => {

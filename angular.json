@@ -165,21 +165,21 @@
         }
       }
     },
-    "sidebar": {
+    "nav": {
       "projectType": "library",
-      "root": "libs/sidebar",
-      "sourceRoot": "libs/sidebar/src",
+      "root": "libs/nav",
+      "sourceRoot": "libs/nav/src",
       "prefix": "llt",
       "architect": {
         "build": {
           "builder": "@nrwl/angular:package",
           "options": {
-            "tsConfig": "libs/sidebar/tsconfig.lib.json",
-            "project": "libs/sidebar/ng-package.json"
+            "tsConfig": "libs/nav/tsconfig.lib.json",
+            "project": "libs/nav/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "libs/sidebar/tsconfig.lib.prod.json"
+              "tsConfig": "libs/nav/tsconfig.lib.prod.json"
             }
           }
         },
@@ -187,19 +187,19 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "libs/sidebar/tsconfig.lib.json",
-              "libs/sidebar/tsconfig.spec.json"
+              "libs/nav/tsconfig.lib.json",
+              "libs/nav/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/sidebar/**"]
+            "exclude": ["**/node_modules/**", "!libs/nav/**"]
           }
         },
         "test": {
           "builder": "@nrwl/jest:jest",
           "options": {
-            "jestConfig": "libs/sidebar/jest.config.js",
-            "tsConfig": "libs/sidebar/tsconfig.spec.json",
+            "jestConfig": "libs/nav/jest.config.js",
+            "tsConfig": "libs/nav/tsconfig.spec.json",
             "passWithNoTests": true,
-            "setupFile": "libs/sidebar/src/test-setup.ts"
+            "setupFile": "libs/nav/src/test-setup.ts"
           }
         }
       },

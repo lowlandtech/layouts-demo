@@ -1,5 +1,5 @@
 {
-  "name": "@lowlandtech/admin-layout-sidebar",
+  "name": "@lowlandtech/admin-layout-nav",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^9.1.9",

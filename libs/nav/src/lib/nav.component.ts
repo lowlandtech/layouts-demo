@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'llt-sidebar',
+  selector: 'llt-nav',
   template: `
     <nav>
-      sidebar works!
+      nav works!
     </nav>
   `,
-  styleUrls: ['./sidebar.component.scss']
+  styleUrls: ['./nav.component.scss']
 })
 export class SidebarComponent implements OnInit {
 

@@ -25,7 +25,7 @@ llt-header {
   background-color: #FA7D44;
 }
 
-llt-sidebar {
+llt-nav {
   grid-area: nav;
   margin-left: 0.6rem;
   background-color: #2A92BF;
@@ -63,7 +63,7 @@ ul li a {
 }
 
 @media (max-width: 991px) {
-  llt-sidebar,
+  llt-nav,
   llt-aside {
     margin: 0;
   }
