@@ -12,7 +12,9 @@ One day I saw a youtube video about css-grid and I thought it was the best thing
   
 ## How to install
 
-`$ npm i @lowlandtech/layouts --save --registry https://npm.pkg.github.com`
+```shell
+$ npm i @lowlandtech/layouts --save --registry https://npm.pkg.github.com`
+```
 
 Use your github username and password to login
 
@@ -58,4 +60,15 @@ export class AdminModule { }
 
 Add some styling and this will be the result. (check demo app for examples)
 
-![admin page with admin layout](https://github.com/lowlandtech/layouts/blob/develop/docs/img/admin-page.png)
+```shell
+$ ng serve
+```
+![admin page with admin layout desktop form factor](https://github.com/lowlandtech/layouts/blob/develop/docs/img/admin-page.png)
+
+I also added a mobile breakpoint with css-grid.
+
+![admin page with admin layout mobile mobile form factor](https://github.com/lowlandtech/layouts/blob/develop/docs/img/admin-page-mobile.png)
+
+There's also a second page (home) which uses the site-layout.
+
+![home page with site layout desktop form factor](https://github.com/lowlandtech/layouts/blob/develop/docs/img/home-page.png)
