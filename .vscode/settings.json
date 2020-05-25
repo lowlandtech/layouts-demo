@@ -1,9 +1,9 @@
 {
   "files.exclude": {
-    "libs\\**\\tsconfig*.json": false,
+    "libs\\**\\tsconfig*.json": true,
     "libs\\**\\jest.config.js": true,
     "libs\\**\\src\\test-setup.ts": true,
-    "libs\\**\\tslint.json": false,
+    "libs\\**\\tslint.json": true,
     "apps\\**\\tslint.json": true,
     "apps\\**\\browserslist": true,
     "apps\\**\\jest.config.js": true,

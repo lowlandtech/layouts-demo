@@ -1,0 +1,35 @@
+
+.layout {
+  grid-gap: 12px;
+}
+
+.app-header {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  background-color: #0000FF;
+  padding: 10px;
+}
+
+.app-main {
+  background-color: #A5A6AB;
+  padding: 10px;
+  text-align: center;
+}
+
+.app-footer {
+  background-color:#0000FF;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+ul li {
+  color: white;
+}
+ul li a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 15px;
+}
