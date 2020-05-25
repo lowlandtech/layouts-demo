@@ -24,8 +24,7 @@
             "assets": [
               "apps/demo/src/favicon.ico",
               "apps/demo/src/assets",
-              "apps/demo/src/.nojekyll",
-              "apps/demo/src/CNAME"
+              "apps/demo/src/.nojekyll"
             ],
             "styles": ["apps/demo/src/styles.scss"],
             "scripts": []
