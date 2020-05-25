@@ -4,11 +4,11 @@ import { Component, OnInit } from '@angular/core';
   selector: 'llt-admin',
   template: `
     <div class="container">
-      <header><outlet name="header"><outlet></header>
-      <aside class="nav"><outlet name="nav"><outlet></aside>
-      <main><outlet name="main"><outlet></main>
-      <aside class="menubar"><outlet name="aside"><outlet></aside>
-      <footer><outlet name="footer"><outlet></footer>
+      <outlet name="header"><outlet>
+      <outlet name="nav"><outlet>
+      <outlet name="main"><outlet>
+      <outlet name="aside"><outlet>
+      <outlet name="footer"><outlet>
     <div>
   `,
   styleUrls: ['./admin-layout.component.scss']
