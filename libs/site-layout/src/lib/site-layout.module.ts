@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
-import { AdminLayoutComponent } from './admin-layout.component';
+import { SiteLayoutComponent } from './site-layout.component';
 
 @NgModule({
   imports: [CommonModule, RouterModule],
-  declarations: [AdminLayoutComponent],
-  exports: [AdminLayoutComponent],
+  declarations: [SiteLayoutComponent],
+  exports: [SiteLayoutComponent],
 })
-export class AdminLayoutModule {}
+export class SiteLayoutModule {}

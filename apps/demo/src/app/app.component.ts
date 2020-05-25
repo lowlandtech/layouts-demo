@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
+  // tslint:disable-next-line:component-selector
   selector: 'body',
-  template: '<outlet></outlet>',
+  template: '<router-outlet></router-outlet>',
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {

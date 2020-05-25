@@ -43,6 +43,9 @@
     },
     "main": {
       "tags": []
+    },
+    "site-layout": {
+      "tags": []
     }
   }
 }

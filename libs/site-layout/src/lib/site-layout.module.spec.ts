@@ -1,14 +1,14 @@
 import { async, TestBed } from '@angular/core/testing';
-import { NavModule } from './nav.module';
+import { SiteLayoutModule } from './site-layout.module';
 
-describe('NavModule', () => {
+describe('SiteLayoutModule', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      imports: [NavModule],
+      imports: [SiteLayoutModule],
     }).compileComponents();
   }));
 
   it('should create', () => {
-    expect(NavModule).toBeDefined();
+    expect(SiteLayoutModule).toBeDefined();
   });
 });

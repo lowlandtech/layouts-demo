@@ -21,7 +21,8 @@
       "@lowlandtech/header": ["libs/header/src/index.ts"],
       "@lowlandtech/footer": ["libs/footer/src/index.ts"],
       "@lowlandtech/aside": ["libs/aside/src/index.ts"],
-      "@lowlandtech/main": ["libs/main/src/index.ts"]
+      "@lowlandtech/main": ["libs/main/src/index.ts"],
+      "@lowlandtech/site-layout": ["libs/site-layout/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

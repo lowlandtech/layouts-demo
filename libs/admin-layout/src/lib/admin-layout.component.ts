@@ -1,14 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'llt-admin',
   template: `
     <div class="container">
-      <outlet name="header"><outlet>
-      <outlet name="nav"><outlet>
-      <outlet name="main"><outlet>
-      <outlet name="aside"><outlet>
-      <outlet name="footer"><outlet>
+      <router-outlet name="header"><router-outlet>
+      <router-outlet name="nav"><router-outlet>
+      <router-outlet><router-outlet>
+      <router-outlet name="aside"><router-outlet>
+      <router-outlet name="footer"><router-outlet>
     <div>
   `,
   styleUrls: ['./admin-layout.component.scss']
