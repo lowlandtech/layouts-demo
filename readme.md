@@ -2,7 +2,7 @@
 
 First I used to make layouts with bootstrap, which wasn't ideal but better than fighting with css. With the release of Angular Material I migrated when Material was used instead of bootstrap. I also fought with flexbox which I never really appreciated compared to griding with Bootstrap or Material.
 
-One day I saw a youtube video about css-grid and I thought it was the best thing after slice bread. And I immediately thought back at my efforts to have an external site layout for website and and admin layout for admin backend-ish apps. So, today I share my first attempt with the world.
+One day I saw a youtube video about css-grid and I thought it was the best thing since sliced bread. And I immediately thought back at my efforts to have an external site layout for a landing page and and admin layout for admin backend-ish apps. So, today I share my first attempt with the world.
 
 ### Roadmap: objectives achieved
 
