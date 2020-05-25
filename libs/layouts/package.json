@@ -1,7 +1,17 @@
 {
   "name": "@lowlandtech/layouts",
-  "version": "0.0.0",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "@wendellmva <wmuntslag@live.nl>",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
+  "repository" : {
+    "type" : "git",
+    "url": "ssh://git@github.com/lowlandtech/layouts.git",
+    "directory": "dist/libs/layouts"
+  },
+  "homepage": "./README.md",
   "peerDependencies": {
     "@angular/common": "^9.1.9",
     "@angular/core": "^9.1.9"
