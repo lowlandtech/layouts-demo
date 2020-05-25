@@ -11,10 +11,12 @@ import { AsideModule } from '@lowlandtech/aside';
 import { FooterModule } from '@lowlandtech/footer';
 
 import { AppComponent } from './app.component';
-import { AppRoutingModule } from './app.routes';
+import { routes } from './app.routes';
+import { RouterModule } from '@angular/router';
+import { AdminPageComponent } from './pages/admin.page/admin.page.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, AdminPageComponent],
   imports: [
     BrowserModule,
     SiteLayoutModule,
@@ -24,7 +26,10 @@ import { AppRoutingModule } from './app.routes';
     MainModule,
     AsideModule,
     FooterModule,
-    AppRoutingModule,
+    RouterModule.forRoot(routes, {
+      initialNavigation: 'enabled',
+      useHash: true
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent],
