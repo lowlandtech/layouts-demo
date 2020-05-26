@@ -1,7 +1,7 @@
 {
   "name": "@lowlandtech/layouts",
   "description": "Package to reuse css-grid layouts as importable angular modules.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "author": "@wendellmva <wmuntslag@live.nl> (https://wendellmva.com)",
   "publishConfig": {
@@ -21,6 +21,7 @@
     "nx": "nx",
     "start": "ng serve",
     "build": "ng build",
+    "publish": "just-build",
     "deploy": "ng deploy --base-href=/layouts/",
     "test": "ng test",
     "lint": "nx workspace-lint && ng lint",
@@ -41,6 +42,17 @@
     "dep-graph": "nx dep-graph",
     "help": "nx help",
     "postinstall": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points"
+  },
+  "just-build": {
+    "default": [
+      "cpy readme.md libs/layouts",
+      "standard-version",
+      "cd libs/layouts",
+      "$(npm bin)/ng build --prod",
+      "cd dist/libs/layouts",
+      "npm publish",
+      "npm run deploy"
+    ]
   },
   "private": true,
   "dependencies": {
@@ -76,8 +88,10 @@
     "eslint": "6.8.0",
     "jest": "25.2.3",
     "jest-preset-angular": "8.1.2",
+    "just-build": "^0.9.19",
     "ng-packagr": "^9.0.0",
     "prettier": "2.0.4",
+    "standard-version": "^8.0.0",
     "ts-jest": "25.2.1",
     "ts-node": "~7.0.0",
     "tslint": "~6.0.0",
