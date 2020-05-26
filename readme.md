@@ -192,15 +192,15 @@ Run the app.
 ```shell
 $ ng serve
 ```
-![admin page with admin layout desktop form factor](https://layouts.lowlandtech.com/assets/images/admin-page.png)
+![admin page with admin layout desktop form factor](https://lowlandtech.github.io/layouts/assets/images/admin-page.png)
 
 I also added a mobile breakpoint with css-grid.
 
-![admin page with admin layout mobile mobile form factor](https://layouts.lowlandtech.com/assets/images/admin-page-mobile.png)
+![admin page with admin layout mobile mobile form factor](https://lowlandtech.github.io/layouts/assets/images/admin-page-mobile.png)
 
 There's also a second page (home) which uses the site-layout.
 
-![home page with site layout desktop form factor](https://layouts.lowlandtech.com/assets/images/home-page.png)
+![home page with site layout desktop form factor](https://lowlandtech.github.io/layouts/assets/images/home-page.png)
 
 
 ## Roadmap
