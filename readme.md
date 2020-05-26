@@ -207,9 +207,16 @@ There's also a second page (home) which uses the site-layout.
 
 - [ ] Add github action to ng test on git commit to develop
 - [ ] Add github action to npm publish a release on git merge to master
-- [ ] Create default HeaderItem with default styling and grouping to content left and right
+- [ ] Create default HeaderItem with default styling and group content to the left or the righ right
 - [ ] Create default NavItem with default styling and grouping by NavItem type (nav-header, nav-menu, nav-menu-item, nav-footer)
 - [ ] Use rxjs to emit events from the layout components
 - [ ] Make NavComponent collapsible and minimizable
 - [ ] Make AsideComponent collapsible and minimizable
 - [ ] Remove the component selector and have only semantic html
+
+## Sources
+
+- https://www.positronx.io/css-grid-layout-holy-grail-angular-ui-tutorial/
+- https://learncssgrid.com/
+- https://nx.dev/angular/cli/overview
+- https://scotch.io/tutorials/angular-2-transclusion-using-ng-content
