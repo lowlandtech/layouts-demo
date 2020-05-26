@@ -1,28 +1,11 @@
 {
   "name": "@lowlandtech/layouts",
-  "description": "Package to reuse css-grid layouts as importable angular modules.",
-  "version": "0.0.3",
-  "license": "MIT",
-  "author": "@wendellmva <wmuntslag@live.nl> (https://wendellmva.com)",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
-  "repository": {
-    "type": "git",
-    "url": "ssh://git@github.com/lowlandtech/layouts.git",
-    "directory": "dist/libs/layouts"
-  },
-  "bugs": {
-    "url": "https://github.com/lowlandtech/layouts/issues"
-  },
-  "homepage": "./README.md",
   "scripts": {
     "ng": "ng",
     "nx": "nx",
     "start": "ng serve",
     "build": "ng build",
-    "publish": "cpy readme.md libs/layouts & standard-version & ng build layouts --prod & cd dist/libs/layouts & npm publish & npm run deploy",
-    "deploy": "ng deploy --base-href=/layouts/",
+    "deploy": "cpy readme.md libs/layouts & cd libs/layouts & standard-version  & cd ../.. & ng build layouts --prod & cd dist/libs/layouts & npm publish & cd ../.. & ng deploy --base-href=/layouts/",
     "test": "ng test",
     "lint": "nx workspace-lint && ng lint",
     "e2e": "ng e2e",
