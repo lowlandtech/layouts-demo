@@ -51,3 +51,13 @@
   padding: 10px 0;
 }
 
+@media (max-width: 991px) {
+  ul {
+    padding: 0;
+    li {
+      a {
+        text-align: center;
+      }
+    }
+  }
+}
