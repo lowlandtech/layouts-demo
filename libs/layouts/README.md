@@ -213,3 +213,10 @@ There's also a second page (home) which uses the site-layout.
 - [ ] Make NavComponent collapsible and minimizable
 - [ ] Make AsideComponent collapsible and minimizable
 - [ ] Remove the component selector and have only semantic html
+
+## Sources
+
+- https://www.positronx.io/css-grid-layout-holy-grail-angular-ui-tutorial/
+- https://learncssgrid.com/
+- https://nx.dev/angular/cli/overview
+- https://scotch.io/tutorials/angular-2-transclusion-using-ng-content
