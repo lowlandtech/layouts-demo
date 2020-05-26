@@ -1,13 +1,13 @@
 {
   "name": "@lowlandtech/layouts",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "license": "MIT",
   "author": "@wendellmva <wmuntslag@live.nl>",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/"
   },
-  "repository" : {
-    "type" : "git",
+  "repository": {
+    "type": "git",
     "url": "ssh://git@github.com/lowlandtech/layouts.git",
     "directory": "dist/libs/layouts"
   },
